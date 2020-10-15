@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Serving Web Content</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<div class="wrapper">
+		<ul>
+   			<li th:text="${quest.blistermaw} ? 'BlisterMaw is active' : 'blisterMaw is not active'"/>
+   			<li th:text="${quest.skreeg} ? 'skreeg is active' : 'skreeg is not active'"/>
+   			<li th:text="${quest.venomfin} ? 'venomfin is active' : 'venomfin is not active'"/>
+   			<li th:text="${quest.puscilla} ? 'puscilla is active' : 'puscilla is not active'"/>
+   			<li th:text="${quest.vraxthul} ? 'vraxthul is active' : 'vraxthul is not active'"/>
+ 		</ul>
+ 	</div>
+
+</body>
+</html>
